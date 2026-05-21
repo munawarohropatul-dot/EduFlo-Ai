@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #7C3AED;
+  --secondary: #9333EA;
+  --accent: #C084FC;
+  --dark: #0F172A;
+  --card: #1E1B4B;
+  --glow: #A855F7;
+}
+
+body {
+  background-color: var(--dark);
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+/* Glassmorphism & Neon Effects */
+.glass-panel {
+  background: rgba(30, 27, 75, 0.6);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(168, 85, 247, 0.2);
+}
+
+.neon-border {
+  border: 1px solid rgba(168, 85, 247, 0.5);
+  box-shadow: 0 0 10px rgba(168, 85, 247, 0.2), inset 0 0 10px rgba(168, 85, 247, 0.1);
+}
+
+.neon-glow:hover {
+  box-shadow: 0 0 20px rgba(168, 85, 247, 0.6);
+  border-color: rgba(192, 132, 252, 0.8);
+  transition: all 0.3s ease;
+}
+
+.text-glow {
+  text-shadow: 0 0 10px rgba(192, 132, 252, 0.8);
+}
+
+.bg-radial-glow {
+  background: radial-gradient(circle at 50% 0%, rgba(124, 58, 237, 0.15) 0%, transparent 50%);
+}
