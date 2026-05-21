@@ -10,7 +10,7 @@ import QRCode from "react-qr-code";
 import { Html5QrcodeScanner } from "html5-qrcode";
 
 // --- GANTI DENGAN URL GOOGLE APPS SCRIPT ANDA NANTI ---
-const GAS_URL = "https://script.google.com/macros/s/AKfycbw.../exec";
+const GAS_URL = "https://script.google.com/macros/s/AKfycbyOmRx1FL1bFDKknIseHgmBsew_pAR3tUBl_pSpQSt6CWjcQfx4rR4gdjBc6DkANiRXhg/exec";
 
 // ==========================================
 // 1. REUSABLE COMPONENTS (Empty State & UI)
